@@ -120,6 +120,10 @@ export const getServerSideConfig = () => {
     googleUrl: process.env.GOOGLE_URL,
 
     gtmId: "GTM-MCXLFBN2",
+    isAnthropic,
+    anthropicApiKey: getApiKey(process.env.ANTHROPIC_API_KEY),
+    anthropicApiVersion: process.env.ANTHROPIC_API_VERSION,
+    anthropicUrl: process.env.ANTHROPIC_URL,
 
     needCode: ACCESS_CODES.size > 0,
     code: process.env.CODE,
