@@ -157,8 +157,10 @@ export function SideBar(props: { className?: string }) {
         <div className={styles["sidebar-title"]} data-tauri-drag-region>
           CI&T ChatGPT
         </div>
-        <div className={styles["sidebar-sub-title"]}>
-          Your own AI assistant.
+        <div style={{ color: "red" }} className={styles["sidebar-sub-title"]}>
+          重要通知:本平台将于几周内停止服务,请各位用户尽快转移至CI&T/Flow的Chat功能(https://flow.ciandt.com/)。Flow
+          Chat已集成我们大多数当前功能,以便您无缝过渡到新平台。如大家在Flow
+          Chat上权限问题,请联系bob(bobz@ciandt.com)
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />

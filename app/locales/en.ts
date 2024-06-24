@@ -383,7 +383,8 @@ const en: LocaleType = {
   },
   Store: {
     DefaultTopic: "New Conversation",
-    BotHello: "Hello! How can I assist you today?",
+    BotHello:
+      "重要通知:本平台将于几周内停止服务,请各位用户尽快转移至CI&T/Flow的Chat功能(https://flow.ciandt.com/)。Flow Chat已集成我们大多数当前功能,以便您无缝过渡到新平台。如大家在Flow Chat上权限问题,请联系Bob(bobz@ciandt.com)",
     Error: "Something went wrong, please try again later.",
     Prompt: {
       History: (content: string) =>
